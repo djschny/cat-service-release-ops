@@ -1,7 +1,7 @@
 apiVersion: kpack.io/v1alpha1
 kind: ClusterStack
 metadata:
-  name: booternetes-stack
+  name: lab-workshop-3-w01-stack
 spec:
   id: "io.buildpacks.stacks.bionic"
   buildImage:

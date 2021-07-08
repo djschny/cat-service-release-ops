@@ -2,15 +2,15 @@ apiVersion: kpack.io/v1alpha1
 kind: Builder
 metadata:
   name: booternetes-builder
-  namespace: kpack
+  
 spec:
-  tag: gcr.io/pgtm-jlong/booternetes-builder
-  serviceAccount: kpack-bot
+  tag: lab-workshop-3-w01-s001-registry.s1tour-prod-new-25cca0b.tanzu-labs.esp.vmware.com/booternetes-builder
+  serviceAccount: default
   stack:
-    name: booternetes-stack
+    name: lab-workshop-3-w01-stack
     kind: ClusterStack
   store:
-    name: booternetes-store
+    name: lab-workshop-3-w01-store
     kind: ClusterStore
   order:
     - group:

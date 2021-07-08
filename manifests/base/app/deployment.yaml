@@ -18,7 +18,7 @@ spec:
         app: cat-service
     spec:
       containers:
-      - image: gcr.io/pgtm-jlong/cat-service:0.0.1-SNAPSHOT
+      - image: lab-workshop-3-w01-s001-registry.s1tour-prod-new-25cca0b.tanzu-labs.esp.vmware.com/cat-service:0.0.1-SNAPSHOT
         name: cat-service
         resources: {}
         imagePullPolicy: Always

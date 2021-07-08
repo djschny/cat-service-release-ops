@@ -11,5 +11,5 @@ configMapGenerator:
       - application.properties
 
 images:
-  - name: gcr.io/pgtm-jlong/cat-service # used for Kustomize matching
+  - name: lab-workshop-3-w01-s001-registry.s1tour-prod-new-25cca0b.tanzu-labs.esp.vmware.com/cat-service # used for Kustomize matching
     newTag: latest
